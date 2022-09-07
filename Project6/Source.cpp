@@ -27,6 +27,24 @@ public:
 		cout << "y=";
 		cin >> y;
 	}
+	void setx()
+	{
+		cout << "x=";
+		cin >> x;
+	}
+	void getx()
+	{
+		cout << "x=" << x << endl;
+	}
+	void sety()
+	{
+		cout << "y=";
+		cin >> y;
+	}
+	void gety()
+	{
+		cout << "y=" << y << endl;
+	}
 };
 int main()
 {
