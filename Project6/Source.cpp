@@ -21,6 +21,17 @@ public:
 		engine = e;
 		patroll = p;
 	}
+	void init() {
+		cout << "engine: " << endl;
+		cin >> engine;
+		cout << "patroll" << endl;
+		cin >> patroll;
+	}
+	void print()
+	{
+		cout << "engine: " << engine << endl;
+		cout << "patroll: " << patroll << endl;
+	}
 };
 int main()
 {
