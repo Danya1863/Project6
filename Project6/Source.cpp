@@ -48,5 +48,7 @@ public:
 };
 int main()
 {
-	
+	point obj2;
+	obj2.init();
+	obj2.print();
 }
