@@ -15,6 +15,18 @@ public:
 		x = X;
 		y = Y;
 	}
+	void print()
+	{
+		cout << "x=" << x << endl;
+		cout << "y=" << y << endl;
+	}
+	void init()
+	{
+		cout << "x=";
+		cin >> x;
+		cout << "y=";
+		cin >> y;
+	}
 };
 int main()
 {
